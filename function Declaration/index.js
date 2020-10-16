@@ -7,4 +7,5 @@ function buatFunctionDeclaration(nama, umur, fakultas,jurusan){
     return mhs;
 }
 
+const anakTeknik = buatFunctionDeclaration("Putra", 31, "Teknologi Industri", "Teknik Industri")
 const maba = buatFunctionDeclaration("Neldo", 26, "Teknologi Industri", "Teknik Informatika");

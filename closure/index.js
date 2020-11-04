@@ -32,7 +32,7 @@ let cetakBus = bus();
 cetakBus("prima Jasa");
 cetakBus("arimbi");
 
-
+// menggunakan factories function
 function ucapkanSalam(waktu){
     return function(nama){
         console.log(`hai ${nama}, selamat ${waktu}`);
